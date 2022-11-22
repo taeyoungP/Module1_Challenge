@@ -50,6 +50,8 @@ p {
     font-size: 16px;
 }
 
+/*"figure" element can be styled (figure {...}) instead of using hero class here (if so class="hero" should be removed from html file) .
+    However I decided to keep class "hero", so the figure element can be also used in the future. (such as adding different image figure with different size and position)*/
 .hero {
     height: 800px;
     width: 100%;
@@ -132,6 +134,7 @@ footer {
     text-align: center;
 }
 
-footer h2 {
+/*footer h2 -> footer h4*/
+footer h4 {
     font-size: 20px;
 }

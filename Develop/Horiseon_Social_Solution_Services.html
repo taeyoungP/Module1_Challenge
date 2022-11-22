@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
-    <title>Horiseon Social Solution Services</title>
+    <title>Horiseon Social Solution Services, Inc.</title>
 </head>
 
 <body>
@@ -24,7 +24,10 @@
             </ul>
         </nav>
     </header>
-    <section class="hero"></section>
+    <!--Since class="hero's background img is part of css, instead of using alt, title was being used.
+        User can hover the mouse over the background img, and whether img is available or not, user will be able to 
+        see the img's title descrbing the img"-->
+    <figure class="hero" title="digital-marketing-meeting"></figure>
     <section class="content">
         <article class="content_article">
             <img src="./assets/images/search-engine-optimization.jpg" class="float-left" alt="search-engine-optimization-image"/>
@@ -47,6 +50,9 @@
                 Social media continues to have a sizable influence on buying habits. Social media marketing helps you determine which platforms are suited to your brand, using analytics to find the right markets and increase your lead generation.
             </p>
         </article>
+        <!--Removed id="online-reputation-management" and "social-media-marketing" since their ids were not used in css
+        If each of the contents need to be styled in the future, ids can be added, but for now, articles has same style
+        and unified as class="content-article" and each of their unique id is not neccesary.-->
     </section>
     <aside class="benefits">
         <article class="aside_benefits">
@@ -72,7 +78,9 @@
         </article>
     </aside>
     <footer>
-        <h2>Made with ❤️️ by Horiseon</h2>
+        <!--<h2>Made with ❤️️ by Horiseon</h2>// heading attributes in sequential order h1->h2->h3->h4.
+        Since footer is positioned in last, h4 comes after h3-->
+        <h4>Made with ❤️️ by Horiseon</h4>
         <p>
             &copy; 2019 Horiseon Social Solution Services, Inc.
         </p>
