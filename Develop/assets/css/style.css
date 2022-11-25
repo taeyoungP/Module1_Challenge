@@ -92,7 +92,7 @@ p {
 }
 
 /*Unified benefit-lead, benefit-brand, benefit-cost classes into 
-one class(.benefits_aside) since all of the sections nested in the aside have same styles*/
+one class(.benefits_aside) since all of the sections nested in aside element have same styles*/
 .benefits_aside {
     margin-bottom: 32px;
     color: #ffffff;
